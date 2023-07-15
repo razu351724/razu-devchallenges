@@ -1,0 +1,43 @@
+body{font-family: 'Space Mono', monospace;}
+img{height: 100%; width: 100%;} 
+main{
+    display:flex;
+    justify-content:space-evenly;
+    height: 500px;
+    width: auto;
+    gap: 50px;
+    padding: 50px;
+}
+
+.div-left{
+    width: 50%;
+}
+.div-left img{width:auto;}
+
+/* div-right-site */
+.div-right{
+    width: 50%;
+    
+}
+.div-right h2{
+    
+    font-size: 64px;
+    font-weight: 700;
+    /* text-align: left; */
+    color: #333333;
+    margin-top: -10px;
+}
+.div-right p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+.div-right button{
+    
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
